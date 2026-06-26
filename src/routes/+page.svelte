@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  import Canvas from "$lib/components/Canvas.svelte";
+  import Sidebar from "$lib/components/Sidebar.svelte";
+</script>
+
+<div>
+    <!-- Canvas -->
+    <div class = "w-[75vw] h-full relative">
+        <Canvas />
+    </div> 
+    <!-- Sidebar -->
+    <div class = "w-[25vw] h-full bg-slate-900 border-l border-slate-800">
+        <Sidebar />
+    </div>
+</div>
+<style>
+
+</style>
