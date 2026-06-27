@@ -3,7 +3,7 @@
   import Sidebar from "$lib/components/Sidebar.svelte";
 </script>
 
-<div>
+<div class = "flex h-screen w-screen bg-slate-950 overflow-hidden">
     <!-- Canvas -->
     <div class = "w-[75vw] h-full relative">
         <Canvas />
@@ -13,6 +13,7 @@
         <Sidebar />
     </div>
 </div>
-<style>
 
+<style>
+    
 </style>
